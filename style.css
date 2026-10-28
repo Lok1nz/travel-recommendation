@@ -1,0 +1,13 @@
+body { margin: 0; font-family: Arial, sans-serif; background: #f4f4f4; }
+.navbar { display: flex; justify-content: space-between; align-items: center; background: #0a6c74; padding: 10px 20px; }
+.menu { list-style: none; display: flex; gap: 20px; margin: 0; padding: 0; }
+.menu a { color: #fff; text-decoration: none; font-weight: bold; }
+.search input { padding: 6px; }
+.search button { padding: 6px 12px; cursor: pointer; }
+.hero { text-align: center; padding: 60px 20px; background: #dff3f4; }
+.page { max-width: 700px; margin: 30px auto; padding: 0 20px; }
+form { display: flex; flex-direction: column; gap: 10px; }
+.results { display: flex; flex-wrap: wrap; gap: 20px; padding: 20px; justify-content: center; }
+.card { background: #fff; width: 300px; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,.2); }
+.card img { width: 100%; height: 200px; object-fit: cover; }
+.card h3, .card p { padding: 0 12px; }

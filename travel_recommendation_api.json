@@ -1,0 +1,28 @@
+{
+  "countries": [
+    {
+      "id": 1,
+      "name": "Australia",
+      "cities": [
+        { "name": "Sydney, Australia", "imageUrl": "images/country1.jpg", "description": "A vibrant city known for its Opera House and harbour." },
+        { "name": "Melbourne, Australia", "imageUrl": "images/country2.jpg", "description": "A cultural hub famous for art, coffee and food." }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Japan",
+      "cities": [
+        { "name": "Tokyo, Japan", "imageUrl": "images/country1.jpg", "description": "A bustling metropolis mixing tradition and technology." },
+        { "name": "Kyoto, Japan", "imageUrl": "images/country2.jpg", "description": "Famous for classical temples and gardens." }
+      ]
+    }
+  ],
+  "temples": [
+    { "id": 1, "name": "Angkor Wat, Cambodia", "imageUrl": "images/temple1.jpg", "description": "A UNESCO World Heritage site and the largest religious monument in the world." },
+    { "id": 2, "name": "Taj Mahal, India", "imageUrl": "images/temple2.jpg", "description": "An iconic marble mausoleum on the banks of the Yamuna river." }
+  ],
+  "beaches": [
+    { "id": 1, "name": "Bora Bora, French Polynesia", "imageUrl": "images/beach1.jpg", "description": "Crystal-clear turquoise waters and overwater bungalows." },
+    { "id": 2, "name": "Copacabana Beach, Brazil", "imageUrl": "images/beach2.jpg", "description": "A lively beach with golden sand and stunning views." }
+  ]
+}
